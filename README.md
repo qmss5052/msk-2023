@@ -29,6 +29,14 @@ THIS part is to **predict the 1p/19q codeletion status using gene expression mat
 
 # Jin
 
+## I focused on predicting the Mutation count.
+
+**The models I used right now is linear regression, but I consider to change to others like Lasso regression to improve the accuracy and R-squared value.**
+
+### Results
+-Mean squared error: 8100.792835393206 R-squared: -45.47660982946169 -Not informative yet and will improve on that.
+
+
 # Emile
 
 ## I focused on predicting the **Survival Rate**. 
