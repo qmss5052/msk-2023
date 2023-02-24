@@ -1,5 +1,6 @@
 # MSK_brain_lower_grade_glioma_project
 
+![alt text](image.jpg)
 Each member focused his analysis on a specific dependent variable
 
 # Siqi
@@ -8,7 +9,7 @@ Each member focused his analysis on a specific dependent variable
 
 # Emile
 
-## I focused on predicting the **survival rate**. 
+## I focused on predicting the **Survival Rate**. 
 
 ### The features I use are
 - Gene expression
@@ -20,6 +21,8 @@ Each member focused his analysis on a specific dependent variable
 - Random Forest
 - GradientBoosting
 - SVM
+- Cox Survival Model Elastic Net
 
 ### Results
-- All models are overfitting, despite regulzrization. 
+- Cox Elastic Net is the only decent model, with **92%** R2 on testing data
+- Feature importance
