@@ -1,6 +1,6 @@
 # MSK_brain_lower_grade_glioma_project
 
-<img src="image.jpg" width="1200" height="400"/>
+<img src="image.jpg" width="1200" height="200"/>
 
 Each member focused his analysis on a specific dependent variable
 
