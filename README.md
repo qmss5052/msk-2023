@@ -16,9 +16,9 @@ In 2016, WHO changed the classification of Brain Lower Grade Glioma by the prese
 
 3) IDH wildtype (most glioblastoma)
 
-The classification provides better prognostications according to TCGA's description, and this would be discussed in Emile's part, Overall Survival (OS) Analysis.
+The classification provides better prognostications according to TCGA's description, and this would be discussed in **Emile's part, Overall Survival (OS) Analysis**.
 
-THIS part is to **predict the 1p/19q codeletion status using gene expression matrix (RNA-Seq)**. The supervised learning model, random forest classifier was used with future selection by f_regression score function, which give a high accuracy score, around 98%. 
+THIS part is to **predict the 1p/19q codeletion status using gene expression matrix (RNA-Seq)**. The supervised learning model, random forest classifier was used with future selection by f_regression score function, which give a high accuracy score, around **98%**. 
 
 
 **Future Analysis Plans ...** 
@@ -29,7 +29,7 @@ THIS part is to **predict the 1p/19q codeletion status using gene expression mat
 
 # Jin
 
-## I focused on predicting the Mutation count.
+### I focused on predicting the Mutation count.
 
 **The models I used right now is linear regression, but I consider to change to others like Lasso regression to improve the accuracy and R-squared value.**
 
@@ -39,13 +39,13 @@ THIS part is to **predict the 1p/19q codeletion status using gene expression mat
 
 # Emile
 
-## I focused on predicting the **Survival Rate**. 
+### I focused on predicting the **Survival Rate**. 
 
-### The features I use are
+#### The features I use are
 - Gene expression
 - Clinical data (age, sex, race, prior diagnosis, radiation therapy...)
 
-### The models I used:
+#### The models I used:
 
 - LASSO
 - Random Forest
@@ -53,6 +53,6 @@ THIS part is to **predict the 1p/19q codeletion status using gene expression mat
 - SVM
 - Cox Survival Model Elastic Net
 
-### Results
+#### Results
 - Cox Elastic Net is the only decent model, with **87%** R2 on testing data
 - Feature importance and explainability: Diagnosis Age plays an important role, as well as genes 118430, 55970, 406, 4214
