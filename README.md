@@ -1,6 +1,7 @@
 # MSK_brain_lower_grade_glioma_project
 
-![alt text](image.jpg)
+<img src="image.jpg" width="128"/>
+
 Each member focused his analysis on a specific dependent variable
 
 # Siqi
