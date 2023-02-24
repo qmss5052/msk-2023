@@ -26,5 +26,4 @@ Each member focused his analysis on a specific dependent variable
 
 ### Results
 - Cox Elastic Net is the only decent model, with **87%** R2 on testing data
-### Next Steps
-- Feature importance and explainability 
+- Feature importance and explainability: Diagnosis Age plays an important role, as well as genes 118430, 55970, 406, 4214
