@@ -8,15 +8,18 @@ Each member focused his analysis on a specific dependent variable
 
 # Emile
 
-I focused on predicting the **survival rate**. 
+## I focused on predicting the **survival rate**. 
 
-The features I use are
+### The features I use are
 - Gene expression
-- Patient data (age, etc.)
+- Clinical data (age, sex, race, prior diagnosis, radiation therapy...)
 
-The models I used:
+### The models I used:
 
 - LASSO
 - Random Forest
 - GradientBoosting
 - SVM
+
+### Results
+- All models are overfitting, despite regulzrization. 
