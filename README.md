@@ -28,11 +28,15 @@ THIS part is to **predict the 1p/19q codeletion status using gene expression mat
 
 ### I focused on predicting the Mutation count.
 
-**The models I used right now is linear regression, but I consider to change to others like Lasso regression to improve the accuracy and R-squared value.**
+**The models I used is Poisson regression model,because this helps to identify which predictor variables are associated with the mutation count and how strong these associations are .**
 
 ### Results
--Mean squared error: 8100.792835393206 R-squared: -45.47660982946169 -Not informative yet and will improve on that.
+-Mean squared error: 35.91208791208791 R-squared: 0.7939618834888497
+The Poisson regression model was used to predict the mutation count using the X variables. The model achieved a good R-squared value of 0.79, indicating that it is a reliable model for prediction. This means that the X variables included in the model are useful in explaining the variability in the mutation count, and they have a reasonably strong relationship with the outcome variable. 
 
+-Coefficients: After calculating coefficients of x variables, the feature importance information was then extracted using the coefficients obtained from the model. The top five features with the largest coefficients were TMB_NONSYNONYMOUS_0.033333333, SAMPLE_ID_TCGA-HT-8107-01, SAMPLE_ID_TCGA-P5-A5F6-01, MSI_SCORE_MANTIS_0.3526, and MSI_SENSOR_SCORE_0.48. These features suggest that the presence of certain gene mutations, tumor mutation burden, and microsatellite instability score may be important predictors of mutation count.
+
+-Next steps: We may want to use NMF to identify patterns and relationships between the features. NMF is a matrix factorization that decomposes a matrix into two matrices of lower rank. In this case, the input matrix X is factorized into two matrices W and H, where W represents the basis vectors and H represents the coefficient matrix. In our case, X is a data matrix where each row represents a different sample or observation (e.g. a cell in a single-cell RNA sequencing dataset). W represents a set of "metagenes" (or gene expression patterns) that are shared across patients, and H represents the contribution of each patient to each metagene. (Not sure whether this is on the right track)
 
 # Emile
 
