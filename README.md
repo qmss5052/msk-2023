@@ -2,11 +2,8 @@
 
 <img src="image.jpg" width="800" height="200"/>
 
-Each member focused his analysis on a specific dependent variable
 
-# Siqi
-
-### Prediction for Subtype of LGG: 
+# Prediction for Subtype of LGG: 
 
 In 2016, WHO changed the classification of Brain Lower Grade Glioma by the presence or absense of iscocitrate dehydrogenase (IDH) mutation and chromosome 1p/19q codeletion instead of from histology diagnosis, so now there are 3 categories: 
 
@@ -18,7 +15,7 @@ In 2016, WHO changed the classification of Brain Lower Grade Glioma by the prese
 
 The classification provides better prognostications according to TCGA's description, and this would be discussed in **Emile's part, Overall Survival (OS) Analysis**.
 
-THIS part is to **predict the 1p/19q codeletion status using gene expression matrix (RNA-Seq)**. The supervised learning model, random forest classifier was used with future selection by f_regression score function, which give a high accuracy score, around **98%**. 
+THIS part is to **predict the 1p/19q codeletion status using gene expression matrix (RNA-Seq)**. The supervised learning model, random forest classifier was used with future selection by f_regression score function, which give a high accuracy score, around **98%**. Using Non-negative Matrix Factorization A = WH with rank = 20, the accuracy score of random forest model with H as features is **97%**, and metagene 10, 2 and 1 are the most important features.
 
 
 **Future Analysis Plans ...** 
