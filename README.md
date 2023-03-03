@@ -2,7 +2,6 @@
 
 <img src="image.jpg" width="800" height="200"/>
 
-Each member focused his analysis on a specific dependent variable
 
 # Prediction for Subtype of LGG: 
 
