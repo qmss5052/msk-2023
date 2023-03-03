@@ -4,9 +4,7 @@
 
 Each member focused his analysis on a specific dependent variable
 
-# Siqi
-
-### Prediction for Subtype of LGG: 
+# Prediction for Subtype of LGG: 
 
 In 2016, WHO changed the classification of Brain Lower Grade Glioma by the presence or absense of iscocitrate dehydrogenase (IDH) mutation and chromosome 1p/19q codeletion instead of from histology diagnosis, so now there are 3 categories: 
 
