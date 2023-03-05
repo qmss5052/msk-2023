@@ -1,6 +1,6 @@
 # MSK_brain_lower_grade_glioma_project
 
-<img src="image.jpg" width="200" height="200"/>
+<img src="images/dna_repo.jpg" width="200" height="200"/>
 
 
 # Prediction for Subtype of LGG: 
