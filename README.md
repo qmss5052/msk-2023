@@ -1,6 +1,6 @@
 # MSK_brain_lower_grade_glioma_project
 
-<img src="image.jpg" width="800" height="200"/>
+<img src="image.jpg" width="600" height="200"/>
 
 
 # Prediction for Subtype of LGG: 
@@ -57,3 +57,7 @@ The Poisson regression model was used to predict the mutation count using the X 
 #### Results
 - Cox Elastic Net is the only decent model, with **87%** R2 on testing data
 - Feature importance and explainability: Diagnosis Age plays an important role, as well as genes 118430, 55970, 406, 4214
+
+#### Using Zscores
+
+- Cox Elastic Net gives 94% training R2, 81% test R2
