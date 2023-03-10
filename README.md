@@ -17,10 +17,20 @@ The classification provides better prognostications according to TCGA's descript
 
 THIS part is to **predict the 1p/19q codeletion status using gene expression matrix (RNA-Seq)**. The supervised learning model, random forest classifier was used with future selection by f_regression score function, which give a high accuracy score, around **98%**. Using Non-negative Matrix Factorization A = WH with rank = 20, the accuracy score of random forest model with H as features is **97%**, and metagene 10, 2 and 1 are the most important features.
 
+**The model's top features, here genes might be not the "real" top features:**
+After training the random forest model 50 times, I find that top genes are totally different, and if we using the genes that never has feature importance (feature_importance_val = 0) as features to train the RF model, it still could get 97% accuracy. If there is not data leakage (in most paper about BLGG, they all have around 97% accuracy), then it would means the genes has highly correlations between each other. I would say gene is an environment for tumor, so we could not see gene one by one and need to group them and cluster in some ways that could be measured and reversed. There are 3 methods I could come up to solve this: 
 
-**Future Analysis Plans ...** 
-1. Use Non-negative Matrix Factorization/Deep Learning model to detect the local behavior of genes associated with tumor subtype. 
-2. Assign or cluster genes into metagenes and try to find the biological interpretation for these metagenes.
+**Method 1: Non-Negative Matrix Factorization**
+
+This method has already be implemented (with 97% accuracy score) and need to do more to scale the data using Max-Min scaler; and also might need to use some NLP method to find the functionality of the metagenes (gene group). 
+
+**Method 2: Correlation Matrix** 
+
+Remove the highly correlated genes (similarity) in the features. 
+
+**Method 3: NLP for Gene Description** 
+
+Firstly, cluster the genes with NLP methods using data from gene library (gene description, GO terms, etc.) and then use this clustered gene groups as features to predict the subtype of tumor or to do OS analysis.
 
 
 
