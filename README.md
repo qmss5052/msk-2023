@@ -28,9 +28,9 @@ This method has already be implemented (with 97% accuracy score) and need to do 
 
 Remove the highly correlated genes (similarity) in the features. 
 
-**Method 3: NLP for gene Description** 
+**Method 3: NLP for Gene Description** 
 
-Firstly, cluster the genes with NLP methods using data from gene library (gene description, GO terms, etc.) and then use this clustered gene groups as features to predict the subtype of tumor or do OS analysis.
+Firstly, cluster the genes with NLP methods using data from gene library (gene description, GO terms, etc.) and then use this clustered gene groups as features to predict the subtype of tumor or to do OS analysis.
 
 
 
