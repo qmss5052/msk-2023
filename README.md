@@ -58,16 +58,18 @@ The Poisson regression model was used to predict the mutation count using the X 
 
 #### The models I used:
 
-- LASSO
 - Random Forest
 - GradientBoosting
-- SVM
 - Cox Survival Model Elastic Net
 
 #### Results
 - Cox Elastic Net is the only decent model, with **87%** R2 on testing data
-- Feature importance and explainability: Diagnosis Age plays an important role, as well as genes 118430, 55970, 406, 4214
+- 
 
 #### Using Zscores
 
 - Cox Elastic Net gives 94% training R2, 81% test R2
+
+#### I use PCA LASSO regression to look at the impact of dimensionality
+
+####  Break down 
