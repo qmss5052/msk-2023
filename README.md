@@ -1,7 +1,8 @@
-# MSK_brain_lower_grade_glioma_project
+# MSK Spring 2023
+
+# MSK_brain_lower_grade_glioma_Team (Siqi, Jin, Emile)
 
 <img src="images/dna_repo.jpg" width="400" height="200"/>
-
 
 # Prediction for Subtype of LGG: 
 
@@ -70,6 +71,8 @@ The Poisson regression model was used to predict the mutation count using the X 
 
 - Cox Elastic Net gives 94% training R2, 81% test R2
 
-#### I use PCA regression to look at the impact of dimensionality on the ElasticNet Cox Model
+#### Dimensionality and stability
+-  I use Kernel PCA regression to look at the impact of dimensionality on the ElasticNet Cox Model
 
 ####  Break down analysis by groups of patient
+- TODO Plots of survival curves with different groups (sex, age)
