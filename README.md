@@ -1,5 +1,9 @@
 # MSK Spring 2023
 
+# Deeplite notebook
+
+- You can access the notebook here: 
+
 # MSK_brain_lower_grade_glioma_Team (Siqi, Jin, Emile)
 
 <img src="images/dna_repo.jpg" width="400" height="200"/>
