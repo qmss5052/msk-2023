@@ -3,6 +3,9 @@
 # Deeplite notebook
 
 - You can access the notebook here: 
+<a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/drive/1IzRJCM3VlyzBiXd9iCulXyBc9rfhGORe?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 # MSK_brain_lower_grade_glioma_Team (Siqi, Jin, Emile)
 
